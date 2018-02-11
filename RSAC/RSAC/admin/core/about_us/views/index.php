@@ -1,0 +1,1 @@
+<h1>Data passed was <?php echo $this->somedata;?></h1>

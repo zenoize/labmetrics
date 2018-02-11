@@ -1,0 +1,11 @@
+Install Notes
+Visit http://{your.local.ip}/login.php?computer={computer name}
+http://192.168.0.12/login.php?computer=computer1
+drag into book marks
+add to application page
+right click icon set to open as window
+right click create desktop shortcut
+click shortcut and size window
+CTRL X window
+(optional) 
+Replace icon with custom logo

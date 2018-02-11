@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<link href='style.css' type='stylesheet'/>
+	</head>
+	<body onload="init()">
+		<h1>working</h1>
+		<script>
+			function init(){
+				let width = 300;
+				let height = 100;
+				console.log(window.screen.availWidth,window.screen.width);
+				console.log(window.screen.availHeight,window.screen.height);
+				let left = window.screen.availWidth - (width+50);
+				let top = window.screen.availHeight - (height+80);
+				window.open("login.php",
+				"Timer",
+				"resizable=no,menubar=no,toolbar=no,scrollbar=no,status=no,titlebar=no,top="+top+",left="+left+",width="+width+",height="+height,true);
+				window.close();
+			}
+		</script>
+	</body>
+</html>

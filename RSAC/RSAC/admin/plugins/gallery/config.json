@@ -1,0 +1,21 @@
+{
+	"tables": [{
+		"name": "plg_gallery_imgs",
+		"columns":[{
+			"name":"name",
+			"type": "varchar",
+			"length": 64
+		},{	
+			"name":"path",
+			"type": "varchar",
+			"length": 64
+		}],
+		"rows":[[{
+				"column":"name",
+				"value":"cool car"
+			},{
+				"column":"path",
+				"value":"car1.jpg"
+		}]]
+	}]
+}

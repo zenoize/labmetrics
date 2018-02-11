@@ -1,0 +1,48 @@
+[
+	{
+		"parent":".main_widgets_container",
+		"type":"Num",
+		"size":2,
+		"theme":"dark",
+		"title":"New Bots",
+		"fa_icon":"android",
+		"unit":"",
+		"refresh":5000,
+		"description":"Displays the number of new bots",
+		"apicall":"new",
+		"perameters":[{
+			"name":"count_only",
+			"value":"true"
+		}]
+	},{
+		"parent":".main_widgets_container",
+		"type":"Num",
+		"size":2,
+		"theme":"dark",
+		"title":"Active Bots",
+		"fa_icon":"android",
+		"unit":"",
+		"refresh":5000,
+		"description":"Displays the number of active bots",
+		"apicall":"active",
+		"perameters":[{
+			"name":"count_only",
+			"value":"true"
+		}]
+	},{
+		"parent":".main_widgets_container",
+		"type":"Num",
+		"size":2,
+		"theme":"dark",
+		"title":"Banned Bots",
+		"fa_icon":"android",
+		"unit":"",
+		"refresh":5000,
+		"description":"Displays the number of banned bots",
+		"apicall":"banned",
+		"perameters":[{
+			"name":"count_only",
+			"value":"true"
+		}]
+	}
+]
